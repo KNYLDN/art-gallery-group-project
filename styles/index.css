@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #21da89;
+    justify-self: flex-start;
+    width: 100%;
+}
+.nav .icon {
+    display: none;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    float:right;
+}
+
+.nav a:hover {
+    background-color: #1b945f;
+    color: black;
+}
+  
+  .nav a.active {
+    background-color: #29c27f;
+    color: white;
+    float: left;
+}
