@@ -103,7 +103,7 @@ body {
     align-items: center;
 
     align-self: center;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .landing-info-box {
@@ -114,7 +114,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: darkorange;
+    /* background-color: darkorange; */
 }
 .landing-info-head {
     max-width: 445px;
@@ -129,7 +129,7 @@ body {
     letter-spacing: -0.025em;
     
     color: #292930;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 .landing-info-paragraph {
     max-width: 378px;
@@ -144,7 +144,7 @@ body {
     line-height: 27px;
 
     color: #999FAE;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 
 .landing-btn {
@@ -175,7 +175,7 @@ body {
     width: 100%;
     min-height: 540px;
 
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .grid-container {
