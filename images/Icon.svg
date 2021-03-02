@@ -1,4 +1,5 @@
-<svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="42" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="icon" viewBox="0 0 42 40">
 <rect width="41.5729" height="40" rx="11.4286" fill="white"/>
 <ellipse cx="13.3628" cy="12.8571" rx="5.93899" ry="5.71429" fill="#21DA89"/>
 <ellipse cx="13.3627" cy="27.1429" rx="5.93899" ry="5.71429" fill="#B8BAC8"/>

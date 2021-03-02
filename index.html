@@ -4,19 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Document</title>
+    <title>Art Gallery</title>
 </head>
 <body>
 
     <div class="landing_page">
-        <div class="nav" id="nav-bar">
-            <a href="#home">Art</a>
-            <a href="#info" class="active">Gallery</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact Us</a>
+        <div class="nav-position">
+            <div class="nav" id="nav-bar">
+                <svg class="order" width="42" height="40">
+                    <use xlink:href="images/icon.svg#icon"></use>
+                </svg>
+                <a href="#home" class="home">Art<span class="color">.</span></a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#info" class="active">Gallery</a>
+            </div>
         </div>
-
+        <div class="landing-container">
+            <div class="landing-info-box">
+                <div class="landing-info-head">Making paintings real<span class="color">.</span></div>
+                <div class="landing-info-paragraph">Our paintings are what makes art, art Our paintings are what makes art, art Our paintings are what makes art, art </div>
+                <a href="#contact.html">
+                    <button class="landing-btn">
+                            <p class="landing-btn-txt formatting">Contact us</p>
+                    </button>
+                </a>
+            </div>
+            <div class="landing-paintings">
+                <div class="grid-container">
+                    <div class="p1">
+                        <img class="gallery_img" src="images/painting1.jpg"  alt="p1">
+                    </div>
+                    <div class="p2">
+                        <img class="gallery_img" src="images/painting2.jpg" alt="p2">
+                    </div>
+                    <div class="p3">
+                        <img class="gallery_img" src="images/painting3.jpg" alt="p3">
+                    </div>
+                    <div class="p4">
+                        <img class="gallery_img" src="images/painting4.jpeg" alt="p4">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>
