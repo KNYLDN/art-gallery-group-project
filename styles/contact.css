@@ -441,18 +441,21 @@ textarea {
        font-weight: normal;
        font-size: 18px;
        line-height: 18px;
-       color: #111111;
+       color: #999FAE;
        
        }
 
       a:hover{
-        text-decoration: underline ;
-        color: #21d089;
-      
+       color: black;  
        }
        
 
- 
+     a.active {
+    color: #292930;
+    border-bottom-style: solid;
+    border-color: #21DA89;
+     }
+
  
  
     
@@ -493,7 +496,7 @@ textarea {
      }
      
      .green{
-       color: #21d089;
+       color:#21da89;
    }
 
 
@@ -514,8 +517,7 @@ textarea {
  
  
  .dot{
-     color: #21d089;
-
+    color:#21da89;
      }
      
  
@@ -549,7 +551,7 @@ textarea {
    }
  
    .input:hover{
-     border: #21d089;
+     border: #999FAE;
    }
  
   
@@ -575,7 +577,7 @@ textarea {
      }
  
      .input:focus{
-      border: 2px solid  #21d089;
+      border: 2px solid  #999FAE;
     }
        
        .input{
@@ -584,7 +586,7 @@ textarea {
      
       
      .area:focus{
-      border: 2px solid  #21d089;
+      border: 2px solid  #999FAE;
   
      }
      .area{
@@ -596,7 +598,7 @@ textarea {
    .btn{
       width: 250px;
       height: 80px;
-      background-color:  #21d089;
+      background-color: #21da89;
       text-align: center;
       font-family: 'Roboto', sans-serif;
       font-size: x-large;
@@ -612,9 +614,9 @@ textarea {
    
  
    .btn:hover{
-     border: green;
+     color: #999FAE;
      background-color: blueviolet;
-     text-decoration: underline;
+     
    }
 
    /**eeeeennnnnnnnnnnnnnnnd**/
