@@ -14,7 +14,11 @@ body {
 .nav .icon {
     display: none;
 }
-
+.art {
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+}
 .formatting {
     display: block;
     margin-top: 0;
@@ -97,12 +101,11 @@ body {
 .landing-container {
     max-width: 1110px;
     width: 100%;
-    min-height: 540px;
+    min-height: 740px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 
-    align-self: center;
     /* background-color: darkolivegreen; */
 }
 
@@ -169,7 +172,9 @@ body {
     letter-spacing: -0.04em;
     color: #FFFFFF;
 }
-
+.landing-btn:hover {
+    background: #1a9c68;
+}
 .landing-paintings {
     max-width: 652px;
     width: 100%;
