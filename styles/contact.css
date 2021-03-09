@@ -366,9 +366,15 @@ textarea {
 }
 
 
-
+body {
+    display: flex;
+    justify-content: center;
+}
 
 .main-page{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1024px;
     background-color: white;
     background: url(/images/image.png);
     background-size: cover;
