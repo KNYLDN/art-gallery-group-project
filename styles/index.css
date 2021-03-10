@@ -118,7 +118,7 @@ body {
 .landing-info-box {
     max-width: 445px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
