@@ -11,6 +11,12 @@ body {
     /* background-color: darkcyan; */
 
 }
+
+
+.gallery_img:hover {
+    transform: scale(1.01);
+}
+
 .nav .icon {
     display: none;
 }
